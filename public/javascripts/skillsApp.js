@@ -1,0 +1,1 @@
+var skillsApp = angular.module("skillsApp", []);
