@@ -68,22 +68,21 @@ href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
 	<div data-ng-app="mainApp" data-ng-controller="mainController">
 
 	  <h1>{{blogPageName}}</h1>
-<!--	  <div class="form">
-	    <form>
+	  <div>
+	    <form role="form">
 		  <input type="text" class="form-control" ng-model="blogData.title" placeholder="Enter Blog Title" />
 		  <input type="textarea" class="form-control" cols="50" rows="20" ng-model="blogData.blogPost" placeholder="Enter Blog" />
 		  <button type="submit" class="btn btn-primary" ng-click="createBlog()">Submit</button>
 		</form>
 	  </div>
--->	
+	
 	  <div class="contactInfo">	
 		
 	  </div>
 	  <div class="column"> 
 	    <div class="blog">
-		<img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAALLAAAAJDIzMTU4YzRmLWNiZDktNGQ3Mi1iZGYzLWI4YTBhOTMxZDIwZg.jpg"
-		class="img-circle" alt="Cinque Terre" width="80" height="80"> 
-
+	    <img src="/images/my_pic.jpg"
+	    class="img-circle" alt="Cinque Terre" width="80" height="80"> 
 	      <div class="blogTitle">
 			<p ng-repeat="contact in contacts">
 			{{contact.first}}  {{contact.last}}

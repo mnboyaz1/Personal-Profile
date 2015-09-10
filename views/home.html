@@ -65,8 +65,7 @@ href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"></li
 	<div ng-app="mainApp" ng-controller="mainController">
 	
 	<div class="container">
-
-	  <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAALLAAAAJDIzMTU4YzRmLWNiZDktNGQ3Mi1iZGYzLWI4YTBhOTMxZDIwZg.jpg"
+	  <img src="/images/my_pic.jpg"
 	  class="img-circle" alt="Cinque Terre" width="80" height="80"> 
 	  <div class="contactInfo">	
 		<h5 ng-repeat="contact in contacts">
@@ -101,14 +100,14 @@ href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"></li
 	      </textarea>
 		</div>
 	  </div>
- 
-	    <ol>
+	  <div>
+	    <ul>
 		  <div class= "three-col"> 
 		      <li ng-repeat="contactSkill in contactSkills | orderBy:'skill'">
 			   #{{contactSkill.skill}}
 			  </li> 
 		  </div>
-		</ol>
+		</ul>
 	  </div>
 	</div>
 	
